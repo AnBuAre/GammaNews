@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin: 200px;
+    background-color: beige;
+    margin-top: -3%;
+
+}
+
+#title{
+    font-size: 500%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 6;
+
+ 
+}
+.date{
+    font-size: 300%;
+    text-align: center;
+    font-style: italic;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    
+}
+.exorcismo{
+    text-align: center;
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 3/3;
+    
+    
+   
+}
+.mono{
+    text-align: center;
+    display: grid;
+    grid-column: 3/6;
+    grid-row: 3/3;
+
+}
+.peques{
+    text-align: center;
+    display: grid;
+    grid-column: 1/3;
+
+
+}
+.plantas{
+    text-align: center;
+    display: grid;
+    grid-column: 3/6;
+}
+.popo{
+    text-align: center;
+    display: grid;
+    grid-column: 3/4;
+}
+.gamanews{
+    display: grid;
+    grid-template-columns: repeat(5,600px);
+    gap: 15px;
+    
+   
+
+}
